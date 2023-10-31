@@ -1,0 +1,73 @@
+*{
+    user-select: none;
+}
+html{
+    background-color: rgb(26, 26, 26);
+    cursor: crosshair;
+}
+
+#point {
+    width: 70px;
+    height: 70px;
+    background-color: rgb(112, 216, 117);
+    border: 6px solid rgb(43, 107, 30);
+    border-radius: 100%;
+    position: absolute;
+    transition: 100ms;
+    top: 500px;
+    left: 200px;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1,5rem;
+    
+    
+    
+}
+#point:hover{
+    border: 6px solid rgb(158, 158, 158);
+}
+#startGame{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid rgb(112, 216, 117);
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-weight: 650;
+    font-size: 145%;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+#startGame:hover{
+    border: 6px solid rgb(66, 128, 69);
+    background-color: rgb(180, 185, 190);
+    font-size: 155%;
+
+}
+#startGame:active{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 3px solid rgb(112, 216, 117);
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-weight: 650;
+    font-size: 145%;
+    border-radius: 5px;
+    padding: 0.5rem;
+    cursor: pointer;
+
+}
+#timeInfo{
+    margin-left: auto;
+    margin-right: auto;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.top{
+    display: flex;
+    width: 100%;
+}
+
